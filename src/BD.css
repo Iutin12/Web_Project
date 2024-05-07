@@ -1,0 +1,35 @@
+.App {
+    background: #EBE3CC;
+    text-align: center;
+  }
+  
+  .gridCat{
+    margin-top: 30px;
+    position: relative;
+
+    padding: 15px;
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 30px;
+  
+  }
+  
+  .input-container {
+    margin-top: 20px;
+    margin-left: -400px;
+    width: 1000px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: Neue Montreal;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    
+  }
+ 

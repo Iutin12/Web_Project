@@ -1,0 +1,35 @@
+.main-container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+ 
+  overflow: hidden;
+}
+
+.all-pages-container {
+  height: 100%;
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  /* transition-duration: 300ms; */
+  transition-timing-function: ease-in-out;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background: #062D3E;
+  color: aliceblue;
+  border-radius: 190px 190px 190px 190px;
+  cursor: pointer;
+}
+.arrow:hover {
+ 
+
+}
